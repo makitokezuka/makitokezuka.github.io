@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>protfolio</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <style>
+      body {
+        font-size: 14px;
+      }
+      
+      .navbar {
+        border-radius: 0; 
+      }
+      
+      .navbar-brand img {
+        max-height:120%;
+      }
+      
+      h2{
+        text-align:center;
+      }
+      
+
+    
+      .row {
+        margin-bottom: 50px;
+      }
+      
+      .icon{
+        margin:0 0 20px 0;
+      }
+      
+      .icon img{
+        display:block;
+        margin:auto;
+      }
+      
+      .icon-caption{
+        margin:-30px 0 0 0;
+        text-size:16px;
+        color:white;
+      }
+      
+      .icon {
+        text-align: center;
+      }
+      
+      .icon .glyphicon {
+        margin-bottom: 10px;
+        font-size: 40px;
+        color: #777;
+      }
+      
+      .content h2 {
+        margin-top: 0;
+        padding-bottom: 15px;
+      }
+      .content p {
+        margin-bottom: 30px;
+      }
+      
+      .left-menu{
+          background-color:red;
+      }
+      
+      .right-menu{
+          background-color:blue;
+      }
+      
+      .main-left{
+          background-color:orange;
+      }
+      
+      .main-main{
+          background-color:black;
+          color:white;
+      }
+      
+      footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+      
+      .copyright {
+        padding: 20px 0;
+        font-size: 12px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+        <!-- 2.ヘッダ情報 -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">ポートフォリオ</a>
+          </div>
+        <!-- 3.リストの配置 -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">自己紹介</a></li>
+            <li><a href="index.html#portfolio-link">作品</a></li>
+            <li class="active"><a href="#">お問い合わせ</a></li>
+          </ul>
+        <!-- 4.ボタン -->
+          <button type="button" class="btn btn-default navbar-btn">
+            
+              <a href="mailto:kezuka@media-cf.co.jp" class="btn-default">
+                <span class="glyphicon glyphicon-envelope"></span>
+              </a>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="left-menu col-md-2">left</div>
+            <div class="main col-md-8">
+                <div class="main-left col-md-2">main-left</br></br></div>
+                <div class="main-main col-md-10">main-main</div>
+            </div>
+            <div class="right-menu col-md-2">right</div>
+            
+        </div>
+    </div>
+  </body>
+ </html>

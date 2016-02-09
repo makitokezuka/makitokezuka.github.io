@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>protfolio</title>
+    <meta name="Description" content="こちらは、株式会社メディアコンテンツファクトリーの毛塚牧人のポートフォリオページです。" />
+    <meta name="Keywords" content="毛塚 牧人,Kezuka,Makito,医療,WEB," />
+    <title>Makito Kezuka(毛塚 牧人)のポートフォリオ</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -15,7 +17,8 @@
     <style>
       body {
         font-size: 14px;
-      }
+        font-family:serif , cursive , sans-serif;
+        }
       
       .navbar {
         border-radius: 0; 
@@ -25,10 +28,24 @@
         max-height:120%;
       }
       
+      h1{
+        text-align:center;
+        font-size:24px;
+        
+      }
       h2{
         text-align:center;
+        background-color:#f8f8f8;
+        padding:5px 0;
+        border-radius:5px;
+        color:#777777;
+        font-size:20px;
       }
       
+      hr{
+        margin:0;
+        padding:0 0 10px 0;
+      }
 
     
       .row {
@@ -46,7 +63,7 @@
       
       .icon-caption{
         margin:-30px 0 0 0;
-        text-size:16px;
+        font-size:16px;
         color:white;
       }
       
@@ -60,10 +77,6 @@
         color: #777;
       }
       
-      .content h2 {
-        margin-top: 0;
-        padding-bottom: 15px;
-      }
       .content p {
         margin-bottom: 30px;
       }
@@ -80,20 +93,20 @@
         color: #666;
       }
       
-      @media (max-width: 768px) {
-        body {
-          font-size: 12px;
-        }
-        h1 {
-          font-size: 30px;
-        }
-        h2 {
-          font-size: 24px;
-        }
-        .panel-title {
-          font-size: 14px;
-        }
-      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     </style>
   </head>
   
@@ -108,14 +121,14 @@
           </div>
         <!-- 3.リストの配置 -->
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">自己紹介</a></li>
-            <li><a href="#">作品</a></li>
-            <li><a href="#">お問い合わせ</a></li>
+            <li class="active"><a href="#profile-link">自己紹介</a></li>
+            <li><a href="#portfolio-link">作品</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
           </ul>
         <!-- 4.ボタン -->
           <button type="button" class="btn btn-default navbar-btn">
             
-              <a href="mailto:kezuka@media-cf.co.jp"　type="button" class="btn-default">
+              <a href="mailto:kezuka@media-cf.co.jp" class="btn-default">
                 <span class="glyphicon glyphicon-envelope"></span>
               </a>
           </button>
@@ -124,24 +137,27 @@
     </header>
     <div class="container-fluid">
       <div class="page-header">
-        <h2>自己紹介</h2>
+        <h1>自己紹介と作品ポートフォリオ</h1>
+        <h2 id="profile-link">自己紹介</h2>
       </div>
       <div class="row">
-        <div class="icon col-md-4 col-sm-12">
-          <img class="img-responsive img-rounded img-thumbnail" src="profile picture.jpg" alt="profile" />
+        <div class="icon col-md-4 col-sm-8">
+          <img class="img-responsive img-rounded img-thumbnail" src="profile-picture.jpg" alt="profile" />
           <div class="icon-caption">息子とツーショット</div>
         </div>
         <div class="content col-md-8 col-sm-12">
           <p class="lead">毛塚　牧人</p>
           <p>株式会社メディアコンテンツファクトリー　代表取締役社長</p>
           <p>
-            1977年9月4日生まれ</br>
-            大阪大学人間科学部卒業後、外資系コンサルティング会社にて通信業界のコンサルティングに従事。</br>
+            1977年9月4日生まれ<br>
+            大阪大学人間科学部卒業後、外資系コンサルティング会社にて通信業界のコンサルティングに従事。<br>
             携帯電話会社3社にて物流改革や購買改革のプロジェクトに携わる。 その後、医療系ベンチャーの取締役兼営業本部長を経て、
             2008年より現職。 クリニックから病院まで、患者の視点に立った医療情報の発信や、医療機関の広報の在り方などを
             専門とし数百以上の医療コンテンツの開発や、日々新しい医療サービスの開発などを行う。
             「患者の医療知識向上」を基本コンセプトに、一般の人が何を知るべきか、医療機関・医療従事者は患者に何を伝えるべきか、
-            日々考え、悩む毎日です。 2児の父。</br></br>
+            日々考え、悩む毎日です。 2児の父。<br>
+          </p>
+          <p>
             なお、現在医療システムでひとつ新しいサービスを作りたいと思ったが、<strong>社内のプログラマー、
             デザイナーが誰一人相手にしてくれないため、</strong>仕方なく自分でプログラム勉強中。悲しき38歳。
           </p>
@@ -153,14 +169,14 @@
         </div>
       </div>
       <div class="page-header">
-        <h2>作品群</h2>
+        <h2 id="portfolio-link">作品群</h2>
       </div>
       <div class="row">
         <div class="icon col-sm-4">
           <img class="img-responsive img-rounded" src="meditouch.png" alt="meditouch" />
         </div>
         <div class="content col-sm-8">
-          <p class="lead"><u>1.meditouch</u></br><small>　メディタッチ</small></p>
+          <p class="lead"><u>1.meditouch</u><br><small>　メディタッチ</small></p>
           <p>
             メディタッチとは、医師や医療従事者が診察の現場で患者に
             検査や治療について説明する際に利用する、 
@@ -172,15 +188,16 @@
           <a href="https://github.com/makitokezuka" target="blank">https://mt.media-cf.co.jp/top.php</a>
         </div>
       </div>
+      <hr>
       <div class="row">
         <div class="icon col-sm-4">
           <img class="img-responsive img-rounded" src="medick.png" alt="medick" />
         </div>
         <div class="content col-sm-8">
-          <p class="lead"><u>2.Medick</u></br><small>　メディック</small></p>
+          <p class="lead"><u>2.Medick</u><br><small>　メディック</small></p>
           <p>
             メディックはロイヤリティーフリーの医療専門素材サイトです。
-            医療専用素材サイトとしては、世界最大の収録です。</br>
+            医療専用素材サイトとしては、世界最大の収録です。<br>
             イラスト・症例写真・患者用説明スライド・動画が単品購入でSサイズ１点 300円～から販売しています。
           </p>
           <span class="glyphicon glyphicon-globe"></span>
@@ -188,6 +205,7 @@
         </div>
       </div>
     </div>
+    <hr width="80%">
     <footer>
         <div class="copyrigth"> Copy right(C) 2016 makito.kezuka allrights Reserved</div>
     </footer>
